@@ -13,6 +13,7 @@
 		A7BAD1C12878E0560087B887 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BAD1BF2878E0560087B887 /* Main.storyboard */; };
 		A7BAD1C32878E05A0087B887 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BAD1C22878E05A0087B887 /* Assets.xcassets */; };
 		A7BAD1C62878E05A0087B887 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BAD1C42878E05A0087B887 /* LaunchScreen.storyboard */; };
+		A7BAD1CF2878EF640087B887 /* PlayListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BAD1CE2878EF640087B887 /* PlayListModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A7BAD1C22878E05A0087B887 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7BAD1C52878E05A0087B887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7BAD1C72878E05A0087B887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7BAD1CE2878EF640087B887 /* PlayListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		A7BAD1B82878E0550087B887 /* YouTubeClone */ = {
 			isa = PBXGroup;
 			children = (
+				A7BAD1CD2878EF490087B887 /* Model */,
 				A7BAD1B92878E0550087B887 /* AppDelegate.swift */,
 				A7BAD1BB2878E0550087B887 /* SceneDelegate.swift */,
 				A7BAD1BD2878E0550087B887 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				A7BAD1C72878E05A0087B887 /* Info.plist */,
 			);
 			path = YouTubeClone;
+			sourceTree = "<group>";
+		};
+		A7BAD1CD2878EF490087B887 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A7BAD1CE2878EF640087B887 /* PlayListModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7BAD1BE2878E0550087B887 /* ViewController.swift in Sources */,
+				A7BAD1CF2878EF640087B887 /* PlayListModel.swift in Sources */,
 				A7BAD1BA2878E0550087B887 /* AppDelegate.swift in Sources */,
 				A7BAD1BC2878E0550087B887 /* SceneDelegate.swift in Sources */,
 			);
